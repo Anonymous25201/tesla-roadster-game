@@ -1,0 +1,12 @@
+{
+  "background_color": "#ffffff",
+  "description": "Fly a rocket-powered Cybertruck-style roadster. Dodge barriers, drones and meteors in this free browser game for phones and desktops.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "tesla-roadster-game-fawn.vercel",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "tesla-roadster-game-fawn.vercel",
+  "start_url": "/",
+  "theme_color": "#070a14"
+}
