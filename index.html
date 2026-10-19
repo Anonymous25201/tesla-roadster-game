@@ -4,11 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
 <meta name="theme-color" content="#070a14">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="apple-touch-icon" href="/icons/icon-180.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="description" content="Fly a rocket-powered Cybertruck-style roadster. Dodge barriers, drones and meteors in this free browser game for phones and desktops.">
-<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5013547078596382"
-     crossorigin="anonymous"></script>
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5013547078596382" crossorigin="anonymous"></script>
 <title>Cyber Rocket Roadster</title>
 <style>
 :root{--bg:#070a14;--fg:#e8eef9;--mut:#8fa0c4;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
@@ -291,6 +292,7 @@ function loop(ts){
   const dt=Math.min(.05,(ts-last)/1000||0);last=ts;
   update(dt);draw();requestAnimationFrame(loop);
 }
+if('serviceWorker' in navigator)addEventListener('load',()=>navigator.serviceWorker.register('/sw.js').catch(()=>{}));
 requestAnimationFrame(loop);
 </script>
 </body>
