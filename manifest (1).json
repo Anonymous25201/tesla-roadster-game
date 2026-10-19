@@ -1,0 +1,66 @@
+{
+  "background_color": "#070a14",
+  "description": "Fly a rocket-powered Cybertruck-style roadster. Dodge barriers, drones and meteors in this free browser game for phones and desktops.",
+  "dir": "ltr",
+  "display": "standalone",
+  "name": "Cyber Rocket Roadster",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Rocket Roadster",
+  "start_url": "/",
+  "theme_color": "#070a14",
+  "id": "/",
+  "categories": [
+    "games"
+  ],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/wide-gameplay.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Fly the rocket roadster over obstacles"
+    },
+    {
+      "src": "/screenshots/wide-menu.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Title screen"
+    },
+    {
+      "src": "/screenshots/narrow-gameplay.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Hold the screen to fire the rockets"
+    },
+    {
+      "src": "/screenshots/narrow-menu.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Title screen"
+    }
+  ]
+}
