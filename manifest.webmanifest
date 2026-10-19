@@ -35,5 +35,35 @@
       "type": "image/png",
       "purpose": "maskable"
     }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/wide-gameplay.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Fly the rocket roadster over barriers and drones"
+    },
+    {
+      "src": "/screenshots/wide-menu.png",
+      "sizes": "1920x1080",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "Title screen"
+    },
+    {
+      "src": "/screenshots/narrow-gameplay.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Hold the screen to fire the rockets"
+    },
+    {
+      "src": "/screenshots/narrow-menu.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Title screen"
+    }
   ]
 }
